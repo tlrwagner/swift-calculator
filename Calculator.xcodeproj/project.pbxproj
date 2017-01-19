@@ -14,6 +14,7 @@
 		2FF9A4151E25E69C00F668ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9A4131E25E69C00F668ED /* LaunchScreen.storyboard */; };
 		2FF9A4201E25E69C00F668ED /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9A41F1E25E69C00F668ED /* CalculatorTests.swift */; };
 		2FF9A42B1E25E69C00F668ED /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9A42A1E25E69C00F668ED /* CalculatorUITests.swift */; };
+		2FF9A43B1E26BB5200F668ED /* calcBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF9A43A1E26BB5200F668ED /* calcBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2FF9A4261E25E69C00F668ED /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF9A42A1E25E69C00F668ED /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		2FF9A42C1E25E69C00F668ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF9A43A1E26BB5200F668ED /* calcBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calcBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2FF9A4111E25E69C00F668ED /* Assets.xcassets */,
 				2FF9A4131E25E69C00F668ED /* LaunchScreen.storyboard */,
 				2FF9A4161E25E69C00F668ED /* Info.plist */,
+				2FF9A43A1E26BB5200F668ED /* calcBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				2FF9A40D1E25E69C00F668ED /* ViewController.swift in Sources */,
 				2FF9A40B1E25E69C00F668ED /* AppDelegate.swift in Sources */,
+				2FF9A43B1E26BB5200F668ED /* calcBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
